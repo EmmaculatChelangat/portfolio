@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/images/img.jpg");
+}
+.subheading{
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+.logo i{
+    border: 2px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    float: none;
+    position: absolute;
+    top: 10%;
+    left:10%;
+    transform: translate(-10%, -10%);
+    border-radius: 50%;
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+}
+.top-nav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.top-nav a {
+    float: left;
+    color: #39b414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    /* bottom: 200px; */
+}
+.top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.top-nav a.active{
+    background-color: #04aa6d;
+    color: white;
+}
+.top-nav-centered a{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.top-nav-right{
+    float: right;
+}
+@media screen and (max-width: 600px) {
+    .top-nav a, .top-nav-right{
+        float: none;
+        display: block;
+    }
+    .top-nav-centered a{
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+}
+.image{
+    /* width: 100%; */
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    float: right;
+}
+.footer{
+    text-align: center;
+    padding: 3px;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.social {
+    padding-top: 50px;
+    text-align: center;
+    align-items: center;
+    margin: 0;  
+    margin-left: 70px;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    font-size: 17px;
+    color: #eee;
+    cursor: pointer;
+    background-color: lightslategray;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: #2ecc71;
+    transition: .4s;
+}
+#git{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: #04aa6d;
+    border: none;
+    margin: 50px;
+    cursor: pointer;
+}
+.contact-button:hover{
+    background-color: #39b414;
+
+}
+.social a{
+    margin-right: 30px;
+}

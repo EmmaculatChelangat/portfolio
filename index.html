@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/styles/index.css" />
+    <!-- cdnjs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="top-nav">
+      <!-- font awesome -->
+      <div class="logo">
+        <i class="fa-solid fa-e"></i>
+      </div>
+      <div class="top-nav-centered">
+        <a href="/">Home</a>
+      </div>
+      <div class="top-nav-right">
+        <a href="pages/blog.html">Blog</a>
+        <a href="pages/about.html">About Me</a>
+        <a href="pages/contact.html">Contact Me</a>
+      </div>
+    </nav>
+
+    <img class="image" src="/images/ASG_0312.jpg" alt="My Photo" />
+    <nav class="description">
+      <h1 class="head">Hi, i am <span class="input"></span></h1>
+      <div class="intro">
+        <p>
+          I've been a full stack web developer for 1 year. I live and breath
+          coding.
+        </p>
+        <p>
+          My custom built websites are fast loading, accessible and easy to
+          manage. My skills will help you built a responsive and dynamic
+          websites.
+        </p>
+      </div>
+      <button class="btn">Let's talk &#x2192;</button>
+    </nav>
+
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- typed.js mattboldt cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".input", {
+        strings: [
+          "Emmaculat Chelangat.",
+          "Web Developer.",
+          "Ui/UX Designer.",
+          "web design.",
+        ],
+        typeSpeed: 70,
+        backspeed: 60,
+        loop: true,
+      });
+    </script>
+
+    <footer class="footer">
+      <p>copyright &#169; chelangat 20022. All Rights Reserved</p>
+      <a href="chelangatemmaculat2744@gmail.com"
+        >chelangatemmaculat2744@gmail.com</a
+      >
+    </footer>
+  </body>
+</html>
